@@ -1,0 +1,49 @@
+{
+  "posts": [{ "id": 1, "title": "json-server", "author": "typicode" }],
+  "comments": [{ "id": 1, "body": "some comment", "postId": 1 }],
+  "profile": { "name": "typicode" },
+  "izvodaci": [
+    { "id": 1, "ime": "alen", "prezime": "vitasovic" },
+    { "id": 2, "ime": "boris", "prezime": "novkovic" },
+    { "id": 3, "ime": "daleka", "prezime": "obala" },
+    { "id": 4, "ime": "dalmatino", "prezime": "" },
+    { "id": 5, "ime": "danijela", "prezime": "martinovic" },
+    { "id": 6, "ime": "doris", "prezime": "dragovic" },
+    { "id": 7, "ime": "drazen", "prezime": "zecic" },
+    { "id": 8, "ime": "franka", "prezime": "batelic" },
+    { "id": 9, "ime": "gibonni", "prezime": "" },
+    { "id": 10, "ime": "giuliano", "prezime": "" },
+    { "id": 11, "ime": "hari", "prezime": "roncevic" },
+    { "id": 12, "ime": "jasmin", "prezime": "stavros" },
+    { "id": 13, "ime": "jura", "prezime": "stublic" },
+    { "id": 14, "ime": "maja", "prezime": "suput" },
+    { "id": 15, "ime": "massimo", "prezime": "" },
+    { "id": 16, "ime": "miso", "prezime": "kovac" },
+    { "id": 17, "ime": "nina", "prezime": "badric" },
+    { "id": 18, "ime": "oliver", "prezime": "dragojevic" },
+    { "id": 19, "ime": "parni", "prezime": "valjak" },
+    { "id": 20, "ime": "petar", "prezime": "graso" },
+    { "id": 21, "ime": "prljavo", "prezime": "kazaliste" },
+    { "id": 22, "ime": "thompson", "prezime": "" },
+    { "id": 23, "ime": "vanna", "prezime": "" },
+    { "id": 24, "ime": "zlatko", "prezime": "pejakovic" }
+  ],
+
+
+
+  "pisme": [
+    { "id": 1, "ime": "Ja ne moren vise tako", "izvodac": 1 },
+    { "id": 2, "ime": "Tamara", "izvodac": 2 },
+    { "id": 3, "ime": "Ruzinavi brod", "izvodac": 3 },
+    { "id": 4, "ime": "Dajen ti ric", "izvodac": 4 },
+    { "id": 5, "ime": "Neka mi ne svane", "izvodac": 5 },
+    { "id": 6, "ime": "Malo mi za sricu triba", "izvodac": 6 },
+    { "id": 7, "ime": "Boem u dusi", "izvodac": 7 },
+    { "id": 8, "ime": "Ovaj dan", "izvodac": 8 },
+    { "id": 9, "ime": "Hodaj", "izvodac": 9 },
+    { "id": 10, "ime": "Ej vapore", "izvodac": 9 },
+    { "id": 11, "ime": "Mi smo prvaci", "izvodac": 9},
+    { "id": 12, "ime": "Lipoto moja", "izvodac": 10}
+
+  ]
+}

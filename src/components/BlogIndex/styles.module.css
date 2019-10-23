@@ -1,0 +1,22 @@
+.Post {
+  background-color: rgba(253, 250, 251, 0.233);
+  padding-top: 1%;
+  padding-bottom: 1%;
+  padding-left: 2%;
+  padding-right: 2%;
+  text-align: justify;
+  border-style: groove;
+  border-radius: 0px;
+  margin-bottom: 0.5%;
+}
+
+
+.Excerpt {
+  padding: 0.5rem 0;
+  text-transform: initial;
+}
+
+.Date {
+  font-weight: 400;
+  color: var(--color-dark-grey, #000);
+}

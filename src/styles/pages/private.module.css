@@ -1,0 +1,14 @@
+.Logout {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: var(--color-gold);
+    color: white;
+    padding: 0.35rem 2rem;
+    height: 39px;
+    z-index: 1000;
+  }
+  
+  .Logout:hover {
+    border: none;
+  }

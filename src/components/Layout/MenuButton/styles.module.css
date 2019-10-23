@@ -1,0 +1,46 @@
+.Button {
+  top: 7px;
+  /*--height: var(--header-height, 40px);*/
+  height: var(--header-height-, 48px);
+  /*height: 55px;*/
+  position: fixed;
+  right: 0px;
+  top: 0px;
+  transform: translateY(-50%);
+
+  cursor: pointer;
+  background:  rgb(224, 184, 209);
+  border: 1px solid var(--color-grey, #000);
+  display: none;
+
+  /* padding: 0 15px; */
+  /* padding-top: 10px; */
+  overflow-y: hidden;
+  transition: all 0.25s linear;
+
+  z-index: var(--z-index-menu, 1000);
+}
+
+.Content {
+  font-size: 15px;
+  font-weight: 400;
+  transition: all 0.25s linear;
+}
+
+.Content.open {
+  color: #fff;
+}
+
+.Button.open {
+  background: var(--color-gold, #000);
+  border: 1px solid var(--color-gold, #000);
+}
+
+@media only screen and (max-width: 650px) {
+  .Button {
+    display: block;
+    position: fixed;
+    right: 0px;
+    top: 0px;
+  }
+}

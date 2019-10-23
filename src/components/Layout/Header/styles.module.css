@@ -1,0 +1,62 @@
+.Header {
+  --padding-top-bottom: var(--header-padding, 5px);
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: var(--z-index-menu, 1000);
+  height: var(--header-height-, 40px);
+  background: rgba(238, 231, 231, 0.158);
+  border-bottom: 1px solid var(--color-grey, #000);
+  margin-bottom: 40px;
+}
+
+.Container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex: 1;
+}
+
+.Logo {
+  --logo-padding: calc(var(--header-padding, 5px) + 1px);
+  font-weight: 500;
+  padding: var(--logo-padding) 0;
+  color: var(--color-gold, rgb(45, 189, 8));
+}
+
+.Nav {
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+  overflow-x: auto;
+  overflow-y: hidden;
+}
+
+.NavLink {
+  display: inline-block;
+  padding: var(--header-padding, 5px) 10px;
+  margin-left: 10px;
+  text-overflow: ellipsis;
+  text-transform: uppercase;
+  cursor: pointer;
+  white-space: nowrap;
+  font-size: 15px;
+  font-weight: normal;
+  color: var(--color-primary, #000000);
+  border-top: 3px solid transparent;
+  border-bottom: 3px solid transparent;
+  transition: all 0.25s linear;
+  overflow-x: hidden;
+}
+
+.NavLink_active,
+.NavLink:hover {
+  color: var(--color-gold, rgb(15, 34, 121));
+  border-bottom: 3px solid var(--color-gold, rgb(87, 18, 61));
+}
+
+@media only screen and (max-width: 650px) {
+  .Nav {
+    display: none;
+  }
+}
